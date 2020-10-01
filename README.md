@@ -1,7 +1,5 @@
 # AES-Encyrption-Verilog-Pipelined-Implementation-128bit
 Device: Zedboard xc7z020clg484-1, Clock Rate: 319 MHz, Tool: Vivado 2018.3, Language: Verilog
-# AES-Encyrption-in-Verilog-Pipelined-128bit
-Device: Zedboard xc7z020clg484-1, Clock Rate: 319 MHz, Tool: Vivado 2018.3, Language: Verilog
 
 Code file locations probably you are looking for:
 
