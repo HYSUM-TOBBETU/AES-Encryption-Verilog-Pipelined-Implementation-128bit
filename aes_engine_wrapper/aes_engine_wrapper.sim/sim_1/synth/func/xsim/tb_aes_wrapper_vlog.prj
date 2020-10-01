@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../aes_engine_wrapper.srcs/sources_1/ip/clk_wiz" \
+"tb_aes_wrapper_func_synth.v" \
+"../../../../../aes_engine_wrapper.srcs/sim_1/new/tb_aes_wrapper.v" \
+
+# Do not sort compile order
+nosort

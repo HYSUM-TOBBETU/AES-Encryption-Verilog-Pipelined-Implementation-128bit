@@ -1,0 +1,63 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto b7faabb87e4440d4a3acabc874bbf1c5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot tb_aes_wrapper_func_synth xil_defaultlib.tb_aes_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.FDRE_default
+Compiling module unisims_ver.SRL16E_default
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module unisims_ver.LUT5
+Compiling module unisims_ver.LUT6
+Compiling module unisims_ver.MUXF7
+Compiling module xil_defaultlib.bayt_degistirme
+Compiling module xil_defaultlib.bayt_degistirme_0
+Compiling module xil_defaultlib.bayt_degistirme_1
+Compiling module xil_defaultlib.bayt_degistirme_2
+Compiling module xil_defaultlib.bayt_degistirme_3
+Compiling module xil_defaultlib.bayt_degistirme_4
+Compiling module xil_defaultlib.bayt_degistirme_5
+Compiling module xil_defaultlib.bayt_degistirme_6
+Compiling module xil_defaultlib.bayt_degistirme_7
+Compiling module xil_defaultlib.bayt_degistirme_8
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.x_lut3_mux8
+Compiling module unisims_ver.LUT3
+Compiling module xil_defaultlib.satir_kaydirma
+Compiling module xil_defaultlib.satir_kaydirma_9
+Compiling module xil_defaultlib.satir_kaydirma_10
+Compiling module xil_defaultlib.satir_kaydirma_11
+Compiling module xil_defaultlib.satir_kaydirma_12
+Compiling module xil_defaultlib.satir_kaydirma_13
+Compiling module xil_defaultlib.satir_kaydirma_14
+Compiling module xil_defaultlib.satir_kaydirma_15
+Compiling module xil_defaultlib.satir_kaydirma_16
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.FDRE(INIT=1'b1)
+Compiling module xil_defaultlib.sutun_karistirma
+Compiling module xil_defaultlib.satir_kaydirma_17
+Compiling module xil_defaultlib.sutun_karistirma_18
+Compiling module xil_defaultlib.sutun_karistirma_19
+Compiling module xil_defaultlib.sutun_karistirma_20
+Compiling module xil_defaultlib.sutun_karistirma_21
+Compiling module xil_defaultlib.sutun_karistirma_22
+Compiling module xil_defaultlib.sutun_karistirma_23
+Compiling module xil_defaultlib.sutun_karistirma_24
+Compiling module xil_defaultlib.sutun_karistirma_25
+Compiling module xil_defaultlib.tur_anahtari_ile_toplama
+Compiling module xil_defaultlib.aes_engine
+Compiling module unisims_ver.OBUF
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=39.87...
+Compiling module xil_defaultlib.clk_wiz_clk_wiz_clk_wiz
+Compiling module xil_defaultlib.clk_wiz
+Compiling module xil_defaultlib.aes_wrapper
+Compiling module xil_defaultlib.tb_aes_wrapper
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_aes_wrapper_func_synth

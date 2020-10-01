@@ -1,0 +1,18 @@
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: /opt/XilinxBroken/Vivado/2016.2/bin/unwrapped/lnx64.o/xelab -wto a578bf3b64574a489239148e6af7b6b9 --debug typical --relax --mt 8 -L xil_defaultlib -L xpm -L unisims_ver -L unimacro_ver -L secureip --snapshot aes_wrapper_behav xil_defaultlib.aes_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=10.0,...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_clk_wiz
+Compiling module xil_defaultlib.clk_wiz
+Compiling module xil_defaultlib.aes_engine
+Compiling module xil_defaultlib.aes_wrapper
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot aes_wrapper_behav

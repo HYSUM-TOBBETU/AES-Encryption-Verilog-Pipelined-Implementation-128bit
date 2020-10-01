@@ -1,0 +1,19 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  "/opt/XilinxBroken/Vivado/2016.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv" --include "../../../aes_engine_wrapper.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+sv xil_defaultlib  "/opt/XilinxBroken/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_base.sv" --include "../../../aes_engine_wrapper.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+sv xil_defaultlib  "/opt/XilinxBroken/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_dpdistram.sv" --include "../../../aes_engine_wrapper.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+sv xil_defaultlib  "/opt/XilinxBroken/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_dprom.sv" --include "../../../aes_engine_wrapper.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+sv xil_defaultlib  "/opt/XilinxBroken/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_sdpram.sv" --include "../../../aes_engine_wrapper.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+sv xil_defaultlib  "/opt/XilinxBroken/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_spram.sv" --include "../../../aes_engine_wrapper.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+sv xil_defaultlib  "/opt/XilinxBroken/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_sprom.sv" --include "../../../aes_engine_wrapper.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+sv xil_defaultlib  "/opt/XilinxBroken/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_tdpram.sv" --include "../../../aes_engine_wrapper.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../aes_engine_wrapper.srcs/sources_1/ip/clk_wiz/clk_wiz_clk_wiz.v" --include "../../../aes_engine_wrapper.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../aes_engine_wrapper.srcs/sources_1/ip/clk_wiz/clk_wiz.v" --include "../../../aes_engine_wrapper.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../aes_engine_wrapper.srcs/sources_1/new/aes_engine.v" --include "../../../aes_engine_wrapper.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../aes_engine_wrapper.srcs/sources_1/new/aes_wrapper.v" --include "../../../aes_engine_wrapper.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

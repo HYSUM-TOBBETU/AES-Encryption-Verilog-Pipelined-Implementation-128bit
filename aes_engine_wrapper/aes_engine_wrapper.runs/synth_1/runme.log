@@ -1,0 +1,1333 @@
+
+*** Running vivado
+    with args -log aes_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source aes_wrapper.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source aes_wrapper.tcl -notrace
+Command: synth_design -top aes_wrapper -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 18452 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 396.246 ; gain = 98.582
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'aes_wrapper' [C:/Users/SHC/vivado/aes_engine_wrapper/aes_engine_wrapper.srcs/sources_1/new/aes_wrapper.v:3]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [C:/Users/SHC/vivado/aes_engine_wrapper/aes_engine_wrapper.srcs/sources_1/new/aes_wrapper.v:73]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [C:/Users/SHC/vivado/aes_engine_wrapper/aes_engine_wrapper.srcs/sources_1/new/aes_wrapper.v:74]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz' [C:/Users/SHC/vivado/aes_engine_wrapper/aes_engine_wrapper.runs/synth_1/.Xil/Vivado-12480-DESKTOP-LDUC694/realtime/clk_wiz_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz' (1#1) [C:/Users/SHC/vivado/aes_engine_wrapper/aes_engine_wrapper.runs/synth_1/.Xil/Vivado-12480-DESKTOP-LDUC694/realtime/clk_wiz_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'aes_engine' [C:/Users/SHC/vivado/aes_engine_wrapper/aes_engine_wrapper.srcs/sources_1/new/aes_engine.v:3]
+INFO: [Synth 8-6157] synthesizing module 'bayt_degistirme' [C:/Users/SHC/vivado/aes_engine_wrapper/aes_engine_wrapper.srcs/sources_1/new/bayt_degistirme.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'bayt_degistirme' (2#1) [C:/Users/SHC/vivado/aes_engine_wrapper/aes_engine_wrapper.srcs/sources_1/new/bayt_degistirme.v:3]
+INFO: [Synth 8-6157] synthesizing module 'satir_kaydirma' [C:/Users/SHC/vivado/aes_engine_wrapper/aes_engine_wrapper.srcs/sources_1/new/satir_kaydirma.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'satir_kaydirma' (3#1) [C:/Users/SHC/vivado/aes_engine_wrapper/aes_engine_wrapper.srcs/sources_1/new/satir_kaydirma.v:3]
+INFO: [Synth 8-6157] synthesizing module 'sutun_karistirma' [C:/Users/SHC/vivado/aes_engine_wrapper/aes_engine_wrapper.srcs/sources_1/new/sutun_karistirma.v:3]
+INFO: [Synth 8-4471] merging register 'islem1ilecarpma1_reg[13][7:0]' into 'islem1ilecarpma1_reg[14][7:0]' [C:/Users/SHC/vivado/aes_engine_wrapper/aes_engine_wrapper.srcs/sources_1/new/sutun_karistirma.v:20]
+INFO: [Synth 8-4471] merging register 'islem1ilecarpma1_reg[9][7:0]' into 'islem1ilecarpma1_reg[10][7:0]' [C:/Users/SHC/vivado/aes_engine_wrapper/aes_engine_wrapper.srcs/sources_1/new/sutun_karistirma.v:20]
+INFO: [Synth 8-4471] merging register 'islem1ilecarpma1_reg[5][7:0]' into 'islem1ilecarpma1_reg[6][7:0]' [C:/Users/SHC/vivado/aes_engine_wrapper/aes_engine_wrapper.srcs/sources_1/new/sutun_karistirma.v:20]
+INFO: [Synth 8-4471] merging register 'islem1ilecarpma1_reg[1][7:0]' into 'islem1ilecarpma1_reg[2][7:0]' [C:/Users/SHC/vivado/aes_engine_wrapper/aes_engine_wrapper.srcs/sources_1/new/sutun_karistirma.v:20]
+INFO: [Synth 8-4471] merging register 'islem1ilecarpma2_reg[15][7:0]' into 'islem1ilecarpma1_reg[12][7:0]' [C:/Users/SHC/vivado/aes_engine_wrapper/aes_engine_wrapper.srcs/sources_1/new/sutun_karistirma.v:21]
+INFO: [Synth 8-4471] merging register 'islem1ilecarpma2_reg[14][7:0]' into 'islem1ilecarpma1_reg[15][7:0]' [C:/Users/SHC/vivado/aes_engine_wrapper/aes_engine_wrapper.srcs/sources_1/new/sutun_karistirma.v:21]
+INFO: [Synth 8-4471] merging register 'islem1ilecarpma2_reg[12][7:0]' into 'islem1ilecarpma2_reg[13][7:0]' [C:/Users/SHC/vivado/aes_engine_wrapper/aes_engine_wrapper.srcs/sources_1/new/sutun_karistirma.v:21]
+INFO: [Synth 8-4471] merging register 'islem1ilecarpma2_reg[11][7:0]' into 'islem1ilecarpma1_reg[8][7:0]' [C:/Users/SHC/vivado/aes_engine_wrapper/aes_engine_wrapper.srcs/sources_1/new/sutun_karistirma.v:21]
+INFO: [Synth 8-4471] merging register 'islem1ilecarpma2_reg[10][7:0]' into 'islem1ilecarpma1_reg[11][7:0]' [C:/Users/SHC/vivado/aes_engine_wrapper/aes_engine_wrapper.srcs/sources_1/new/sutun_karistirma.v:21]
+INFO: [Synth 8-4471] merging register 'islem1ilecarpma2_reg[8][7:0]' into 'islem1ilecarpma2_reg[9][7:0]' [C:/Users/SHC/vivado/aes_engine_wrapper/aes_engine_wrapper.srcs/sources_1/new/sutun_karistirma.v:21]
+INFO: [Synth 8-4471] merging register 'islem1ilecarpma2_reg[7][7:0]' into 'islem1ilecarpma1_reg[4][7:0]' [C:/Users/SHC/vivado/aes_engine_wrapper/aes_engine_wrapper.srcs/sources_1/new/sutun_karistirma.v:21]
+INFO: [Synth 8-4471] merging register 'islem1ilecarpma2_reg[6][7:0]' into 'islem1ilecarpma1_reg[7][7:0]' [C:/Users/SHC/vivado/aes_engine_wrapper/aes_engine_wrapper.srcs/sources_1/new/sutun_karistirma.v:21]
+INFO: [Synth 8-4471] merging register 'islem1ilecarpma2_reg[4][7:0]' into 'islem1ilecarpma2_reg[5][7:0]' [C:/Users/SHC/vivado/aes_engine_wrapper/aes_engine_wrapper.srcs/sources_1/new/sutun_karistirma.v:21]
+INFO: [Synth 8-4471] merging register 'islem1ilecarpma2_reg[3][7:0]' into 'islem1ilecarpma1_reg[0][7:0]' [C:/Users/SHC/vivado/aes_engine_wrapper/aes_engine_wrapper.srcs/sources_1/new/sutun_karistirma.v:21]
+INFO: [Synth 8-4471] merging register 'islem1ilecarpma2_reg[2][7:0]' into 'islem1ilecarpma1_reg[3][7:0]' [C:/Users/SHC/vivado/aes_engine_wrapper/aes_engine_wrapper.srcs/sources_1/new/sutun_karistirma.v:21]
+INFO: [Synth 8-4471] merging register 'islem1ilecarpma2_reg[0][7:0]' into 'islem1ilecarpma2_reg[1][7:0]' [C:/Users/SHC/vivado/aes_engine_wrapper/aes_engine_wrapper.srcs/sources_1/new/sutun_karistirma.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'sutun_karistirma' (4#1) [C:/Users/SHC/vivado/aes_engine_wrapper/aes_engine_wrapper.srcs/sources_1/new/sutun_karistirma.v:3]
+INFO: [Synth 8-6157] synthesizing module 'tur_anahtari' [C:/Users/SHC/vivado/aes_engine_wrapper/aes_engine_wrapper.srcs/sources_1/new/tur_anahtari.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'tur_anahtari' (5#1) [C:/Users/SHC/vivado/aes_engine_wrapper/aes_engine_wrapper.srcs/sources_1/new/tur_anahtari.v:3]
+INFO: [Synth 8-6157] synthesizing module 'tur_anahtari_ile_toplama' [C:/Users/SHC/vivado/aes_engine_wrapper/aes_engine_wrapper.srcs/sources_1/new/tur_anahtari_ile_toplama.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'tur_anahtari_ile_toplama' (6#1) [C:/Users/SHC/vivado/aes_engine_wrapper/aes_engine_wrapper.srcs/sources_1/new/tur_anahtari_ile_toplama.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'aes_engine' (7#1) [C:/Users/SHC/vivado/aes_engine_wrapper/aes_engine_wrapper.srcs/sources_1/new/aes_engine.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'aes_wrapper' (8#1) [C:/Users/SHC/vivado/aes_engine_wrapper/aes_engine_wrapper.srcs/sources_1/new/aes_wrapper.v:3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 455.855 ; gain = 158.191
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 455.855 ; gain = 158.191
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 455.855 ; gain = 158.191
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/SHC/vivado/aes_engine_wrapper/aes_engine_wrapper.srcs/sources_1/ip/clk_wiz/clk_wiz/clk_wiz_in_context.xdc] for cell 'cw_i'
+Finished Parsing XDC File [c:/Users/SHC/vivado/aes_engine_wrapper/aes_engine_wrapper.srcs/sources_1/ip/clk_wiz/clk_wiz/clk_wiz_in_context.xdc] for cell 'cw_i'
+Parsing XDC File [C:/Users/SHC/vivado/aes_engine_wrapper/aes_engine_wrapper.srcs/constrs_1/new/project.xdc]
+Finished Parsing XDC File [C:/Users/SHC/vivado/aes_engine_wrapper/aes_engine_wrapper.srcs/constrs_1/new/project.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/SHC/vivado/aes_engine_wrapper/aes_engine_wrapper.srcs/constrs_1/new/project.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/aes_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/aes_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 924.160 ; gain = 0.121
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 924.160 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 924.160 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.023 . Memory (MB): peak = 924.160 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 924.160 ; gain = 626.496
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 924.160 ; gain = 626.496
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for clk. (constraint file  c:/Users/SHC/vivado/aes_engine_wrapper/aes_engine_wrapper.srcs/sources_1/ip/clk_wiz/clk_wiz/clk_wiz_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk. (constraint file  c:/Users/SHC/vivado/aes_engine_wrapper/aes_engine_wrapper.srcs/sources_1/ip/clk_wiz/clk_wiz/clk_wiz_in_context.xdc, line 4).
+Applied set_property DONT_TOUCH = true for cw_i. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 924.160 ; gain = 626.496
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 924.160 ; gain = 626.496
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+----------------------+------------+----------+
+|      |RTL Partition         |Replication |Instances |
++------+----------------------+------------+----------+
+|1     |bayt_degistirme__GBM0 |           1|     33536|
+|2     |bayt_degistirme__GBM1 |           1|     32640|
+|3     |bayt_degistirme__GBM2 |           1|     32640|
+|4     |bayt_degistirme__GBM3 |           1|     32640|
+|5     |bayt_degistirme__GBM4 |           1|     32640|
+|6     |bayt_degistirme__GBM5 |           1|     32640|
+|7     |bayt_degistirme__GBM6 |           1|     33336|
+|8     |bayt_degistirme__GBM7 |           1|     32728|
+|9     |tur_anahtari__GBM0    |           1|     32963|
+|10    |tur_anahtari__GBM1    |           1|     16320|
+|11    |tur_anahtari__GBM2    |           1|     16320|
+|12    |tur_anahtari__GBM3    |           1|     16792|
+|13    |aes_engine__GC0       |           1|     16162|
+|14    |aes_wrapper__GC0      |           1|       284|
++------+----------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      9 Bit       Adders := 10    
+	   2 Input      7 Bit       Adders := 1     
++---XORs : 
+	   2 Input    128 Bit         XORs := 1     
+	   3 Input     32 Bit         XORs := 10    
+	   2 Input     32 Bit         XORs := 70    
+	   2 Input      8 Bit         XORs := 288   
+	   4 Input      8 Bit         XORs := 144   
++---Registers : 
+	              128 Bit    Registers := 52    
+	               32 Bit    Registers := 60    
+	               11 Bit    Registers := 400   
+	                9 Bit    Registers := 10    
+	                8 Bit    Registers := 632   
+	                7 Bit    Registers := 1     
++---Muxes : 
+	   2 Input    128 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 10    
+	   2 Input      8 Bit        Muxes := 144   
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module aes_wrapper 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 1     
++---Registers : 
+	              128 Bit    Registers := 2     
+	                7 Bit    Registers := 1     
+Module bayt_degistirme 
+Detailed RTL Component Info : 
++---Registers : 
+	              128 Bit    Registers := 1     
+	               11 Bit    Registers := 32    
+	                8 Bit    Registers := 16    
+Module tur_anahtari 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      9 Bit       Adders := 1     
++---XORs : 
+	   3 Input     32 Bit         XORs := 1     
+	   2 Input     32 Bit         XORs := 3     
++---Registers : 
+	              128 Bit    Registers := 1     
+	               32 Bit    Registers := 2     
+	               11 Bit    Registers := 8     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 4     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module satir_kaydirma__1 
+Detailed RTL Component Info : 
++---Registers : 
+	              128 Bit    Registers := 1     
+Module sutun_karistirma__1 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      8 Bit         XORs := 32    
+	   4 Input      8 Bit         XORs := 16    
++---Registers : 
+	              128 Bit    Registers := 1     
+	                8 Bit    Registers := 48    
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 16    
+Module tur_anahtari_ile_toplama__1 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     32 Bit         XORs := 4     
++---Registers : 
+	              128 Bit    Registers := 1     
+	               32 Bit    Registers := 4     
+Module satir_kaydirma__2 
+Detailed RTL Component Info : 
++---Registers : 
+	              128 Bit    Registers := 1     
+Module sutun_karistirma__2 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      8 Bit         XORs := 32    
+	   4 Input      8 Bit         XORs := 16    
++---Registers : 
+	              128 Bit    Registers := 1     
+	                8 Bit    Registers := 48    
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 16    
+Module tur_anahtari_ile_toplama__2 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     32 Bit         XORs := 4     
++---Registers : 
+	              128 Bit    Registers := 1     
+	               32 Bit    Registers := 4     
+Module satir_kaydirma__3 
+Detailed RTL Component Info : 
++---Registers : 
+	              128 Bit    Registers := 1     
+Module sutun_karistirma__3 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      8 Bit         XORs := 32    
+	   4 Input      8 Bit         XORs := 16    
++---Registers : 
+	              128 Bit    Registers := 1     
+	                8 Bit    Registers := 48    
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 16    
+Module tur_anahtari_ile_toplama__3 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     32 Bit         XORs := 4     
++---Registers : 
+	              128 Bit    Registers := 1     
+	               32 Bit    Registers := 4     
+Module satir_kaydirma__4 
+Detailed RTL Component Info : 
++---Registers : 
+	              128 Bit    Registers := 1     
+Module sutun_karistirma__4 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      8 Bit         XORs := 32    
+	   4 Input      8 Bit         XORs := 16    
++---Registers : 
+	              128 Bit    Registers := 1     
+	                8 Bit    Registers := 48    
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 16    
+Module tur_anahtari_ile_toplama__4 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     32 Bit         XORs := 4     
++---Registers : 
+	              128 Bit    Registers := 1     
+	               32 Bit    Registers := 4     
+Module satir_kaydirma__5 
+Detailed RTL Component Info : 
++---Registers : 
+	              128 Bit    Registers := 1     
+Module sutun_karistirma__5 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      8 Bit         XORs := 32    
+	   4 Input      8 Bit         XORs := 16    
++---Registers : 
+	              128 Bit    Registers := 1     
+	                8 Bit    Registers := 48    
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 16    
+Module tur_anahtari_ile_toplama__5 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     32 Bit         XORs := 4     
++---Registers : 
+	              128 Bit    Registers := 1     
+	               32 Bit    Registers := 4     
+Module satir_kaydirma__6 
+Detailed RTL Component Info : 
++---Registers : 
+	              128 Bit    Registers := 1     
+Module sutun_karistirma__6 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      8 Bit         XORs := 32    
+	   4 Input      8 Bit         XORs := 16    
++---Registers : 
+	              128 Bit    Registers := 1     
+	                8 Bit    Registers := 48    
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 16    
+Module tur_anahtari_ile_toplama__6 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     32 Bit         XORs := 4     
++---Registers : 
+	              128 Bit    Registers := 1     
+	               32 Bit    Registers := 4     
+Module satir_kaydirma__7 
+Detailed RTL Component Info : 
++---Registers : 
+	              128 Bit    Registers := 1     
+Module sutun_karistirma__7 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      8 Bit         XORs := 32    
+	   4 Input      8 Bit         XORs := 16    
++---Registers : 
+	              128 Bit    Registers := 1     
+	                8 Bit    Registers := 48    
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 16    
+Module tur_anahtari_ile_toplama__7 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     32 Bit         XORs := 4     
++---Registers : 
+	              128 Bit    Registers := 1     
+	               32 Bit    Registers := 4     
+Module satir_kaydirma__8 
+Detailed RTL Component Info : 
++---Registers : 
+	              128 Bit    Registers := 1     
+Module sutun_karistirma__8 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      8 Bit         XORs := 32    
+	   4 Input      8 Bit         XORs := 16    
++---Registers : 
+	              128 Bit    Registers := 1     
+	                8 Bit    Registers := 48    
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 16    
+Module tur_anahtari_ile_toplama__8 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     32 Bit         XORs := 4     
++---Registers : 
+	              128 Bit    Registers := 1     
+	               32 Bit    Registers := 4     
+Module satir_kaydirma__9 
+Detailed RTL Component Info : 
++---Registers : 
+	              128 Bit    Registers := 1     
+Module sutun_karistirma 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      8 Bit         XORs := 32    
+	   4 Input      8 Bit         XORs := 16    
++---Registers : 
+	              128 Bit    Registers := 1     
+	                8 Bit    Registers := 48    
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 16    
+Module tur_anahtari_ile_toplama__9 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     32 Bit         XORs := 4     
++---Registers : 
+	              128 Bit    Registers := 1     
+	               32 Bit    Registers := 4     
+Module satir_kaydirma 
+Detailed RTL Component Info : 
++---Registers : 
+	              128 Bit    Registers := 1     
+Module tur_anahtari_ile_toplama 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     32 Bit         XORs := 4     
++---Registers : 
+	              128 Bit    Registers := 1     
+	               32 Bit    Registers := 4     
+Module aes_engine 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input    128 Bit         XORs := 1     
++---Registers : 
+	              128 Bit    Registers := 1     
++---Muxes : 
+	   2 Input    128 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5580] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'islem214_reg[0]' (FDS) to 'islem214_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islem214_reg[1]' (FDS) to 'islem214_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islem214_reg[2]' (FDS) to 'islem28_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islem215_reg[0]' (FDS) to 'islem28_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islem215_reg[1]' (FDS) to 'islem28_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islem215_reg[2]' (FDS) to 'islem28_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islem212_reg[0]' (FDS) to 'islem28_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islem212_reg[1]' (FDS) to 'islem28_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islem212_reg[2]' (FDS) to 'islem28_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islem24_reg[0]' (FDS) to 'islem28_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islem24_reg[1]' (FDS) to 'islem28_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islem24_reg[2]' (FDS) to 'islem28_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islem211_reg[0]' (FDS) to 'islem28_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islem211_reg[1]' (FDS) to 'islem28_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islem211_reg[2]' (FDS) to 'islem28_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islem216_reg[0]' (FDS) to 'islem28_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islem216_reg[1]' (FDS) to 'islem28_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islem216_reg[2]' (FDS) to 'islem28_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islem25_reg[0]' (FDS) to 'islem28_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islem25_reg[1]' (FDS) to 'islem28_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islem25_reg[2]' (FDS) to 'islem28_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islem210_reg[0]' (FDS) to 'islem28_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islem210_reg[1]' (FDS) to 'islem28_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islem210_reg[2]' (FDS) to 'islem28_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islem26_reg[0]' (FDS) to 'islem28_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islem26_reg[1]' (FDS) to 'islem28_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islem26_reg[2]' (FDS) to 'islem28_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islem29_reg[0]' (FDS) to 'islem28_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islem29_reg[1]' (FDS) to 'islem28_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islem29_reg[2]' (FDS) to 'islem28_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islem27_reg[0]' (FDS) to 'islem28_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islem27_reg[1]' (FDS) to 'islem28_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islem27_reg[2]' (FDS) to 'islem28_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islem28_reg[0]' (FDS) to 'islem28_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islem28_reg[1]' (FDS) to 'islem28_reg[2]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\islem28_reg[2] )
+INFO: [Synth 8-3886] merging instance 'islem21_reg[0]' (FDS) to 'islem213_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islem21_reg[1]' (FDS) to 'islem213_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islem21_reg[2]' (FDS) to 'islem213_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islem213_reg[0]' (FDS) to 'islem213_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islem213_reg[1]' (FDS) to 'islem213_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islem213_reg[2]' (FDS) to 'islem22_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islem23_reg[0]' (FDS) to 'islem22_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islem23_reg[1]' (FDS) to 'islem22_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islem23_reg[2]' (FDS) to 'islem22_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islem22_reg[0]' (FDS) to 'islem22_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islem22_reg[1]' (FDS) to 'islem22_reg[2]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\islem22_reg[2] )
+INFO: [Synth 8-3886] merging instance 'islems23_reg[0]' (FDS) to 'islems24_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islems23_reg[1]' (FDS) to 'islems24_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islems23_reg[2]' (FDS) to 'islems24_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islems24_reg[0]' (FDS) to 'islems24_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islems24_reg[1]' (FDS) to 'islems24_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islems24_reg[2]' (FDS) to 'islems21_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islems22_reg[0]' (FDS) to 'islems21_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islems22_reg[1]' (FDS) to 'islems21_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islems22_reg[2]' (FDS) to 'islems21_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islems21_reg[0]' (FDS) to 'islems21_reg[2]'
+INFO: [Synth 8-3886] merging instance 'islems21_reg[1]' (FDS) to 'islems21_reg[2]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\islems21_reg[2] )
+INFO: [Synth 8-3886] merging instance 'islemr1_reg[0]' (FD) to 'islemr1_reg[4]'
+INFO: [Synth 8-3886] merging instance 'islemr1_reg[1]' (FD) to 'islemr1_reg[4]'
+INFO: [Synth 8-3886] merging instance 'islemr1_reg[2]' (FD) to 'islemr1_reg[4]'
+INFO: [Synth 8-3886] merging instance 'islemr1_reg[3]' (FD) to 'islemr1_reg[4]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\islemr1_reg[4] )
+INFO: [Synth 8-3886] merging instance 'sk9/islem2ilecarpma_reg[15][0]' (FD) to 'sk9/islem1ilecarpma2_reg[13][7]'
+INFO: [Synth 8-3886] merging instance 'sk9/islem2ilecarpma_reg[15][2]' (FD) to 'sk9/islem1ilecarpma2_reg[13][1]'
+INFO: [Synth 8-3886] merging instance 'sk9/islem2ilecarpma_reg[15][5]' (FD) to 'sk9/islem1ilecarpma2_reg[13][4]'
+INFO: [Synth 8-3886] merging instance 'sk9/islem2ilecarpma_reg[15][6]' (FD) to 'sk9/islem1ilecarpma2_reg[13][5]'
+INFO: [Synth 8-3886] merging instance 'sk9/islem2ilecarpma_reg[15][7]' (FD) to 'sk9/islem1ilecarpma2_reg[13][6]'
+INFO: [Synth 8-3886] merging instance 'sk9/islem2ilecarpma_reg[14][0]' (FD) to 'sk9/islem1ilecarpma1_reg[12][7]'
+INFO: [Synth 8-3886] merging instance 'sk9/islem1ilecarpma1_reg[15][1]' (FD) to 'sk9/islem2ilecarpma_reg[13][2]'
+INFO: [Synth 8-3886] merging instance 'sk9/islem2ilecarpma_reg[14][2]' (FD) to 'sk9/islem1ilecarpma1_reg[12][1]'
+INFO: [Synth 8-3886] merging instance 'sk9/islem1ilecarpma1_reg[15][4]' (FD) to 'sk9/islem2ilecarpma_reg[13][5]'
+INFO: [Synth 8-3886] merging instance 'sk9/islem2ilecarpma_reg[14][5]' (FD) to 'sk9/islem1ilecarpma1_reg[12][4]'
+INFO: [Synth 8-3886] merging instance 'sk9/islem1ilecarpma1_reg[15][5]' (FD) to 'sk9/islem2ilecarpma_reg[13][6]'
+INFO: [Synth 8-3886] merging instance 'sk9/islem2ilecarpma_reg[14][6]' (FD) to 'sk9/islem1ilecarpma1_reg[12][5]'
+INFO: [Synth 8-3886] merging instance 'sk9/islem1ilecarpma1_reg[15][6]' (FD) to 'sk9/islem2ilecarpma_reg[13][7]'
+INFO: [Synth 8-3886] merging instance 'sk9/islem2ilecarpma_reg[14][7]' (FD) to 'sk9/islem1ilecarpma1_reg[12][6]'
+INFO: [Synth 8-3886] merging instance 'sk9/islem1ilecarpma1_reg[15][7]' (FD) to 'sk9/islem2ilecarpma_reg[13][0]'
+INFO: [Synth 8-3886] merging instance 'sk9/islem1ilecarpma1_reg[14][1]' (FD) to 'sk9/islem2ilecarpma_reg[12][2]'
+INFO: [Synth 8-3886] merging instance 'sk9/islem1ilecarpma1_reg[14][4]' (FD) to 'sk9/islem2ilecarpma_reg[12][5]'
+INFO: [Synth 8-3886] merging instance 'sk9/islem1ilecarpma1_reg[14][5]' (FD) to 'sk9/islem2ilecarpma_reg[12][6]'
+INFO: [Synth 8-3886] merging instance 'sk9/islem1ilecarpma1_reg[14][6]' (FD) to 'sk9/islem2ilecarpma_reg[12][7]'
+INFO: [Synth 8-3886] merging instance 'sk9/islem1ilecarpma1_reg[14][7]' (FD) to 'sk9/islem2ilecarpma_reg[12][0]'
+INFO: [Synth 8-3886] merging instance 'sk9/islem2ilecarpma_reg[11][0]' (FD) to 'sk9/islem1ilecarpma2_reg[9][7]'
+INFO: [Synth 8-3886] merging instance 'sk9/islem2ilecarpma_reg[11][2]' (FD) to 'sk9/islem1ilecarpma2_reg[9][1]'
+INFO: [Synth 8-3886] merging instance 'sk9/islem2ilecarpma_reg[11][5]' (FD) to 'sk9/islem1ilecarpma2_reg[9][4]'
+INFO: [Synth 8-3886] merging instance 'sk9/islem2ilecarpma_reg[11][6]' (FD) to 'sk9/islem1ilecarpma2_reg[9][5]'
+INFO: [Synth 8-3886] merging instance 'sk9/islem2ilecarpma_reg[11][7]' (FD) to 'sk9/islem1ilecarpma2_reg[9][6]'
+INFO: [Synth 8-3886] merging instance 'sk9/islem2ilecarpma_reg[10][0]' (FD) to 'sk9/islem1ilecarpma1_reg[8][7]'
+INFO: [Synth 8-3886] merging instance 'sk9/islem1ilecarpma1_reg[11][1]' (FD) to 'sk9/islem2ilecarpma_reg[9][2]'
+INFO: [Synth 8-3886] merging instance 'sk9/islem2ilecarpma_reg[10][2]' (FD) to 'sk9/islem1ilecarpma1_reg[8][1]'
+INFO: [Synth 8-3886] merging instance 'sk9/islem1ilecarpma1_reg[11][4]' (FD) to 'sk9/islem2ilecarpma_reg[9][5]'
+INFO: [Synth 8-3886] merging instance 'sk9/islem2ilecarpma_reg[10][5]' (FD) to 'sk9/islem1ilecarpma1_reg[8][4]'
+INFO: [Synth 8-3886] merging instance 'sk9/islem1ilecarpma1_reg[11][5]' (FD) to 'sk9/islem2ilecarpma_reg[9][6]'
+INFO: [Synth 8-3886] merging instance 'sk9/islem2ilecarpma_reg[10][6]' (FD) to 'sk9/islem1ilecarpma1_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'sk9/islem1ilecarpma1_reg[11][6]' (FD) to 'sk9/islem2ilecarpma_reg[9][7]'
+INFO: [Synth 8-3886] merging instance 'sk9/islem2ilecarpma_reg[10][7]' (FD) to 'sk9/islem1ilecarpma1_reg[8][6]'
+INFO: [Synth 8-3886] merging instance 'sk9/islem1ilecarpma1_reg[11][7]' (FD) to 'sk9/islem2ilecarpma_reg[9][0]'
+INFO: [Synth 8-3886] merging instance 'sk9/islem1ilecarpma1_reg[10][1]' (FD) to 'sk9/islem2ilecarpma_reg[8][2]'
+INFO: [Synth 8-3886] merging instance 'sk9/islem1ilecarpma1_reg[10][4]' (FD) to 'sk9/islem2ilecarpma_reg[8][5]'
+INFO: [Synth 8-3886] merging instance 'sk9/islem1ilecarpma1_reg[10][5]' (FD) to 'sk9/islem2ilecarpma_reg[8][6]'
+INFO: [Synth 8-3886] merging instance 'sk9/islem1ilecarpma1_reg[10][6]' (FD) to 'sk9/islem2ilecarpma_reg[8][7]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:58 ; elapsed = 00:01:16 . Memory (MB): peak = 924.160 ; gain = 626.496
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+----------------------+------------+----------+
+|      |RTL Partition         |Replication |Instances |
++------+----------------------+------------+----------+
+|1     |bayt_degistirme__GBM0 |          10|     17312|
+|2     |bayt_degistirme__GBM1 |          10|     16416|
+|3     |bayt_degistirme__GBM2 |          10|     16416|
+|4     |bayt_degistirme__GBM3 |          10|     16416|
+|5     |bayt_degistirme__GBM4 |          10|     16416|
+|6     |bayt_degistirme__GBM5 |          10|     16416|
+|7     |bayt_degistirme__GBM6 |          10|      7919|
+|8     |bayt_degistirme__GBM7 |          10|     13708|
+|9     |tur_anahtari__GBM0    |          10|      4280|
+|10    |tur_anahtari__GBM1    |          10|      8168|
+|11    |tur_anahtari__GBM2    |          10|      8168|
+|12    |tur_anahtari__GBM3    |          10|       900|
+|13    |aes_engine__GC0       |           1|     14145|
+|14    |aes_wrapper__GC0      |           1|       279|
++------+----------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'cw_i/clk_out1' to pin 'cw_i/bbstub_clk_out1/O'
+INFO: [Synth 8-5819] Moved 1 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:13 ; elapsed = 00:01:32 . Memory (MB): peak = 924.949 ; gain = 627.285
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ta1i_9/\islems11_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ta1i_9/\islems11_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ta1i_12/\islems12_reg[10] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ta1i_12/\islemr2_reg[24] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ta1i_12/\islemr2_reg[31] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ta2i_24/\islemr1_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ta2i_24/\islemr1_reg[8] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ta2i_24/\islemr2_reg[25] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ta2i_24/\islemr2_reg[31] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ta3i_36/\islemr1_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ta3i_36/\islemr1_reg[8] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ta3i_36/\islemr2_reg[26] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ta3i_36/\islemr2_reg[31] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ta4i_48/\islemr1_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ta4i_48/\islemr1_reg[8] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ta4i_48/\islemr2_reg[27] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ta4i_48/\islemr2_reg[31] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ta5i_60/\islemr1_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ta5i_60/\islemr1_reg[8] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ta5i_60/\islemr2_reg[28] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ta5i_60/\islemr2_reg[31] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ta6i_72/\islemr1_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ta6i_72/\islemr1_reg[8] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ta6i_72/\islemr2_reg[29] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ta6i_72/\islemr2_reg[31] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ta7i_84/\islemr1_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ta7i_84/\islemr1_reg[8] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ta7i_84/\islemr2_reg[30] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ta7i_84/\islemr2_reg[31] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ta8i_96/\islemr1_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ta8i_96/\islemr1_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ta8i_96/\islemr2_reg[30] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ta8i_96/\islemr2_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ta9i_108/\islemr1_reg[6] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ta9i_108/\islemr1_reg[8] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ta9i_108/\islemr2_reg[28] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ta9i_108/\islemr2_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ta10i_120/\islemr1_reg[6] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ta10i_120/\islemr1_reg[8] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ta10i_120/\islemr2_reg[29] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ta10i_120/\islemr2_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ta1i_9/\islems22_reg[10] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ta1i_12/\islems31_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ta1i_12/\islems31_reg[7] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ta1i_12/\islems31_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ta1i_12/\islems31_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ta1i_12/\sonraki_anahtar_reg[126] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ta1i_12/\sonraki_anahtar_reg[127] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ta1i_12/\sonraki_anahtar_reg[94] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ta1i_12/\sonraki_anahtar_reg[95] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ta1i_12/\sonraki_anahtar_reg[62] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ta1i_12/\sonraki_anahtar_reg[63] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ta1i_12/\sonraki_anahtar_reg[30] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ta1i_12/\sonraki_anahtar_reg[31] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (aes_engine_ii_12/\islems32_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (aes_engine_ii_12/\islems32_reg[7] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (aes_engine_ii_12/\islems32_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (aes_engine_ii_12/\islems32_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (aes_engine_ii_12/\sonraki_anahtar_reg[118] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (aes_engine_ii_12/\sonraki_anahtar_reg[119] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (aes_engine_ii_12/\sonraki_anahtar_reg[86] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (aes_engine_ii_12/\sonraki_anahtar_reg[87] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (aes_engine_ii_12/\sonraki_anahtar_reg[54] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (aes_engine_ii_12/\sonraki_anahtar_reg[55] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (aes_engine_ii_12/\sonraki_anahtar_reg[22] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (aes_engine_ii_12/\sonraki_anahtar_reg[23] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ta2i_24/\islems14_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ta2i_24/\islems14_reg[10] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ta2i_24/\islems12_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ta2i_24/\islems12_reg[10] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ta2i_21/\islems24_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ta2i_21/\islems24_reg[7] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ta2i_21/\islems24_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ta2i_21/\islems24_reg[7] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ta2i_21/\islems22_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ta2i_21/\islems22_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ta2i_24/\islems31_reg[2] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ta2i_24/\islems31_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ta2i_24/\islems31_reg[2] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ta2i_24/\islems31_reg[7] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ta2i_24/\islems31_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ta2i_24/\sonraki_anahtar_reg[127] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ta2i_24/\sonraki_anahtar_reg[90] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ta2i_24/\sonraki_anahtar_reg[95] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ta2i_24/\sonraki_anahtar_reg[62] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ta2i_24/\sonraki_anahtar_reg[63] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (ta2i_24/\sonraki_anahtar_reg[26] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ta2i_24/\sonraki_anahtar_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (aes_engine_ii_24/\islems32_reg[2] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (aes_engine_ii_24/\islems32_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (aes_engine_ii_24/\islems32_reg[2] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (aes_engine_ii_24/\islems32_reg[7] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (aes_engine_ii_24/\islems32_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (aes_engine_ii_24/\sonraki_anahtar_reg[119] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (aes_engine_ii_24/\sonraki_anahtar_reg[82] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (aes_engine_ii_24/\sonraki_anahtar_reg[87] )
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:33 ; elapsed = 00:01:52 . Memory (MB): peak = 991.938 ; gain = 694.273
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+----------------------+------------+----------+
+|      |RTL Partition         |Replication |Instances |
++------+----------------------+------------+----------+
+|1     |bayt_degistirme__GBM0 |           8|      1920|
+|2     |bayt_degistirme__GBM1 |          10|      1056|
+|3     |bayt_degistirme__GBM2 |          10|      1024|
+|4     |bayt_degistirme__GBM3 |          10|      1040|
+|5     |bayt_degistirme__GBM4 |          10|      1040|
+|6     |bayt_degistirme__GBM5 |           8|      1040|
+|7     |bayt_degistirme__GBM6 |           8|      1564|
+|8     |bayt_degistirme__GBM7 |           8|      1108|
+|9     |aes_engine__GC0       |           1|     13414|
+|10    |aes_wrapper__GC0      |           1|       279|
+|11    |aes_wrapper_GT0       |           1|      5632|
+|12    |aes_wrapper_GT0__1    |           1|      5632|
++------+----------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:42 ; elapsed = 00:02:04 . Memory (MB): peak = 991.938 ; gain = 694.273
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+--------------------------+------------+----------+
+|      |RTL Partition             |Replication |Instances |
++------+--------------------------+------------+----------+
+|1     |bayt_degistirme__GBM0     |           1|       512|
+|2     |bayt_degistirme__GBM1     |           1|       128|
+|3     |bayt_degistirme__GBM2     |           1|       128|
+|4     |bayt_degistirme__GBM3     |           1|       128|
+|5     |bayt_degistirme__GBM4     |           1|       128|
+|6     |bayt_degistirme__GBM5     |           1|       128|
+|7     |bayt_degistirme__GBM6     |           1|       704|
+|8     |bayt_degistirme__GBM7     |           1|       192|
+|9     |aes_engine__GC0           |           1|     11110|
+|10    |aes_wrapper__GC0          |           1|       275|
+|11    |aes_wrapper_GT0           |           1|      1360|
+|12    |aes_wrapper_GT0__1        |           1|      1360|
+|13    |bayt_degistirme__GBM1__1  |           1|       128|
+|14    |bayt_degistirme__GBM2__1  |           1|       128|
+|15    |bayt_degistirme__GBM3__1  |           1|       128|
+|16    |bayt_degistirme__GBM4__1  |           1|       128|
+|17    |bayt_degistirme__GBM1__2  |           1|       128|
+|18    |bayt_degistirme__GBM2__2  |           1|       128|
+|19    |bayt_degistirme__GBM3__2  |           1|       128|
+|20    |bayt_degistirme__GBM4__2  |           1|       128|
+|21    |bayt_degistirme__GBM0__7  |           1|       512|
+|22    |bayt_degistirme__GBM1__3  |           1|       128|
+|23    |bayt_degistirme__GBM2__3  |           1|       128|
+|24    |bayt_degistirme__GBM3__3  |           1|       128|
+|25    |bayt_degistirme__GBM4__3  |           1|       128|
+|26    |bayt_degistirme__GBM5__7  |           1|       128|
+|27    |bayt_degistirme__GBM6__7  |           1|       704|
+|28    |bayt_degistirme__GBM7__7  |           1|       192|
+|29    |bayt_degistirme__GBM0__8  |           1|       512|
+|30    |bayt_degistirme__GBM1__4  |           1|       128|
+|31    |bayt_degistirme__GBM2__4  |           1|       128|
+|32    |bayt_degistirme__GBM3__4  |           1|       128|
+|33    |bayt_degistirme__GBM4__4  |           1|       128|
+|34    |bayt_degistirme__GBM5__8  |           1|       128|
+|35    |bayt_degistirme__GBM6__8  |           1|       704|
+|36    |bayt_degistirme__GBM7__8  |           1|       192|
+|37    |bayt_degistirme__GBM0__9  |           1|       512|
+|38    |bayt_degistirme__GBM1__5  |           1|       128|
+|39    |bayt_degistirme__GBM2__5  |           1|       128|
+|40    |bayt_degistirme__GBM3__5  |           1|       128|
+|41    |bayt_degistirme__GBM4__5  |           1|       128|
+|42    |bayt_degistirme__GBM5__9  |           1|       128|
+|43    |bayt_degistirme__GBM6__9  |           1|       704|
+|44    |bayt_degistirme__GBM7__9  |           1|       192|
+|45    |bayt_degistirme__GBM0__10 |           1|       512|
+|46    |bayt_degistirme__GBM1__6  |           1|       128|
+|47    |bayt_degistirme__GBM2__6  |           1|       128|
+|48    |bayt_degistirme__GBM3__6  |           1|       128|
+|49    |bayt_degistirme__GBM4__6  |           1|       128|
+|50    |bayt_degistirme__GBM5__10 |           1|       128|
+|51    |bayt_degistirme__GBM6__10 |           1|       704|
+|52    |bayt_degistirme__GBM7__10 |           1|       192|
+|53    |bayt_degistirme__GBM0__11 |           1|       512|
+|54    |bayt_degistirme__GBM1__7  |           1|       128|
+|55    |bayt_degistirme__GBM2__7  |           1|       128|
+|56    |bayt_degistirme__GBM3__7  |           1|       128|
+|57    |bayt_degistirme__GBM4__7  |           1|       128|
+|58    |bayt_degistirme__GBM5__11 |           1|       128|
+|59    |bayt_degistirme__GBM6__11 |           1|       704|
+|60    |bayt_degistirme__GBM7__11 |           1|       192|
+|61    |bayt_degistirme__GBM0__12 |           1|       512|
+|62    |bayt_degistirme__GBM1__8  |           1|       128|
+|63    |bayt_degistirme__GBM2__8  |           1|       128|
+|64    |bayt_degistirme__GBM3__8  |           1|       128|
+|65    |bayt_degistirme__GBM4__8  |           1|       128|
+|66    |bayt_degistirme__GBM5__12 |           1|       128|
+|67    |bayt_degistirme__GBM6__12 |           1|       704|
+|68    |bayt_degistirme__GBM7__12 |           1|       192|
+|69    |bayt_degistirme__GBM0__13 |           1|       512|
+|70    |bayt_degistirme__GBM1__9  |           1|       128|
+|71    |bayt_degistirme__GBM2__9  |           1|       128|
+|72    |bayt_degistirme__GBM3__9  |           1|       128|
+|73    |bayt_degistirme__GBM4__9  |           1|       128|
+|74    |bayt_degistirme__GBM5__13 |           1|       128|
+|75    |bayt_degistirme__GBM6__13 |           1|       704|
+|76    |bayt_degistirme__GBM7__13 |           1|       192|
++------+--------------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[30] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[30]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[29] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[29]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[25] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[25]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[22] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[22]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[21] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[21]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[17] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[17]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[16] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[16]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[14] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[14]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[13] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[13]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[9] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[9]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[8] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[8]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[6] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[6]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[5] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[5]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[1] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[1]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[0] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[0]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[62] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[62]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[61] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[61]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[57] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[57]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[54] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[54]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[53] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[53]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[49] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[49]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[48] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[48]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[46] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[46]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[45] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[45]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[41] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[41]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[40] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[40]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[38] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[38]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[37] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[37]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[33] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[33]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[32] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[32]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[94] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[94]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[93] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[93]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[89] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[89]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[86] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[86]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[85] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[85]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[81] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[81]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[80] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[80]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[78] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[78]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[77] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[77]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[73] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[73]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[72] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[72]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[70] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[70]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[69] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[69]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[65] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[65]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[64] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[64]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[127] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[127]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[124] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[124]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[123] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[123]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[122] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[122]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[120] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[120]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[119] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[119]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[116] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[116]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[115] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[115]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[114] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[114]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[111] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[111]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[108] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[108]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[107] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[107]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[106] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[106]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[103] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[103]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[100] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[100]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[99] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[99]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk1/sutun_karistirilmis_matris_reg[98] is being inverted and renamed to aes_engine_i/sk1/sutun_karistirilmis_matris_reg[98]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk2/sutun_karistirilmis_matris_reg[26] is being inverted and renamed to aes_engine_i/sk2/sutun_karistirilmis_matris_reg[26]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk2/sutun_karistirilmis_matris_reg[25] is being inverted and renamed to aes_engine_i/sk2/sutun_karistirilmis_matris_reg[25]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk2/sutun_karistirilmis_matris_reg[6] is being inverted and renamed to aes_engine_i/sk2/sutun_karistirilmis_matris_reg[6]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk2/sutun_karistirilmis_matris_reg[4] is being inverted and renamed to aes_engine_i/sk2/sutun_karistirilmis_matris_reg[4]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk2/sutun_karistirilmis_matris_reg[2] is being inverted and renamed to aes_engine_i/sk2/sutun_karistirilmis_matris_reg[2]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk2/sutun_karistirilmis_matris_reg[0] is being inverted and renamed to aes_engine_i/sk2/sutun_karistirilmis_matris_reg[0]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk2/sutun_karistirilmis_matris_reg[18] is being inverted and renamed to aes_engine_i/sk2/sutun_karistirilmis_matris_reg[18]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk2/sutun_karistirilmis_matris_reg[10] is being inverted and renamed to aes_engine_i/sk2/sutun_karistirilmis_matris_reg[10]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk2/sutun_karistirilmis_matris_reg[62] is being inverted and renamed to aes_engine_i/sk2/sutun_karistirilmis_matris_reg[62]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk2/sutun_karistirilmis_matris_reg[61] is being inverted and renamed to aes_engine_i/sk2/sutun_karistirilmis_matris_reg[61]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk2/sutun_karistirilmis_matris_reg[58] is being inverted and renamed to aes_engine_i/sk2/sutun_karistirilmis_matris_reg[58]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk2/sutun_karistirilmis_matris_reg[37] is being inverted and renamed to aes_engine_i/sk2/sutun_karistirilmis_matris_reg[37]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk2/sutun_karistirilmis_matris_reg[36] is being inverted and renamed to aes_engine_i/sk2/sutun_karistirilmis_matris_reg[36]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk2/sutun_karistirilmis_matris_reg[34] is being inverted and renamed to aes_engine_i/sk2/sutun_karistirilmis_matris_reg[34]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk2/sutun_karistirilmis_matris_reg[33] is being inverted and renamed to aes_engine_i/sk2/sutun_karistirilmis_matris_reg[33]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk2/sutun_karistirilmis_matris_reg[54] is being inverted and renamed to aes_engine_i/sk2/sutun_karistirilmis_matris_reg[54]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk2/sutun_karistirilmis_matris_reg[53] is being inverted and renamed to aes_engine_i/sk2/sutun_karistirilmis_matris_reg[53]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk2/sutun_karistirilmis_matris_reg[50] is being inverted and renamed to aes_engine_i/sk2/sutun_karistirilmis_matris_reg[50]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk2/sutun_karistirilmis_matris_reg[49] is being inverted and renamed to aes_engine_i/sk2/sutun_karistirilmis_matris_reg[49]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk2/sutun_karistirilmis_matris_reg[48] is being inverted and renamed to aes_engine_i/sk2/sutun_karistirilmis_matris_reg[48]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk2/sutun_karistirilmis_matris_reg[46] is being inverted and renamed to aes_engine_i/sk2/sutun_karistirilmis_matris_reg[46]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk2/sutun_karistirilmis_matris_reg[45] is being inverted and renamed to aes_engine_i/sk2/sutun_karistirilmis_matris_reg[45]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk2/sutun_karistirilmis_matris_reg[42] is being inverted and renamed to aes_engine_i/sk2/sutun_karistirilmis_matris_reg[42]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk2/sutun_karistirilmis_matris_reg[41] is being inverted and renamed to aes_engine_i/sk2/sutun_karistirilmis_matris_reg[41]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk2/sutun_karistirilmis_matris_reg[40] is being inverted and renamed to aes_engine_i/sk2/sutun_karistirilmis_matris_reg[40]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk2/sutun_karistirilmis_matris_reg[90] is being inverted and renamed to aes_engine_i/sk2/sutun_karistirilmis_matris_reg[90]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk2/sutun_karistirilmis_matris_reg[89] is being inverted and renamed to aes_engine_i/sk2/sutun_karistirilmis_matris_reg[89]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk2/sutun_karistirilmis_matris_reg[70] is being inverted and renamed to aes_engine_i/sk2/sutun_karistirilmis_matris_reg[70]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk2/sutun_karistirilmis_matris_reg[68] is being inverted and renamed to aes_engine_i/sk2/sutun_karistirilmis_matris_reg[68]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk2/sutun_karistirilmis_matris_reg[66] is being inverted and renamed to aes_engine_i/sk2/sutun_karistirilmis_matris_reg[66]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk2/sutun_karistirilmis_matris_reg[64] is being inverted and renamed to aes_engine_i/sk2/sutun_karistirilmis_matris_reg[64]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk2/sutun_karistirilmis_matris_reg[82] is being inverted and renamed to aes_engine_i/sk2/sutun_karistirilmis_matris_reg[82]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk2/sutun_karistirilmis_matris_reg[74] is being inverted and renamed to aes_engine_i/sk2/sutun_karistirilmis_matris_reg[74]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk2/sutun_karistirilmis_matris_reg[126] is being inverted and renamed to aes_engine_i/sk2/sutun_karistirilmis_matris_reg[126]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk2/sutun_karistirilmis_matris_reg[125] is being inverted and renamed to aes_engine_i/sk2/sutun_karistirilmis_matris_reg[125]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk2/sutun_karistirilmis_matris_reg[122] is being inverted and renamed to aes_engine_i/sk2/sutun_karistirilmis_matris_reg[122]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk2/sutun_karistirilmis_matris_reg[101] is being inverted and renamed to aes_engine_i/sk2/sutun_karistirilmis_matris_reg[101]_inv.
+INFO: [Synth 8-5365] Flop aes_engine_i/sk2/sutun_karistirilmis_matris_reg[100] is being inverted and renamed to aes_engine_i/sk2/sutun_karistirilmis_matris_reg[100]_inv.
+INFO: [Common 17-14] Message 'Synth 8-5365' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:47 ; elapsed = 00:02:10 . Memory (MB): peak = 991.938 ; gain = 694.273
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:47 ; elapsed = 00:02:10 . Memory (MB): peak = 991.938 ; gain = 694.273
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:49 ; elapsed = 00:02:13 . Memory (MB): peak = 991.938 ; gain = 694.273
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:49 ; elapsed = 00:02:13 . Memory (MB): peak = 991.938 ; gain = 694.273
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:50 ; elapsed = 00:02:13 . Memory (MB): peak = 991.938 ; gain = 694.273
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:50 ; elapsed = 00:02:14 . Memory (MB): peak = 991.938 ; gain = 694.273
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------+-----------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name                                      | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+-----------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|aes_wrapper | aes_engine_i/bd1/islem22_reg[10]              | 3      | 8     | NO           | NO                 | YES               | 8      | 0       | 
+|aes_wrapper | aes_engine_i/bd1/islem23_reg[10]              | 3      | 8     | NO           | NO                 | YES               | 8      | 0       | 
+|aes_wrapper | aes_engine_i/bd1/islem213_reg[10]             | 3      | 8     | NO           | NO                 | YES               | 8      | 0       | 
+|aes_wrapper | aes_engine_i/bd1/islem21_reg[10]              | 3      | 8     | NO           | NO                 | YES               | 8      | 0       | 
+|aes_wrapper | aes_engine_i/bd1/islem28_reg[10]              | 3      | 8     | NO           | NO                 | YES               | 8      | 0       | 
+|aes_wrapper | aes_engine_i/bd1/islem27_reg[10]              | 3      | 8     | NO           | NO                 | YES               | 8      | 0       | 
+|aes_wrapper | aes_engine_i/bd1/islem29_reg[10]              | 3      | 8     | NO           | NO                 | YES               | 8      | 0       | 
+|aes_wrapper | aes_engine_i/bd1/islem26_reg[10]              | 3      | 8     | NO           | NO                 | YES               | 8      | 0       | 
+|aes_wrapper | aes_engine_i/bd1/islem210_reg[10]             | 3      | 8     | NO           | NO                 | YES               | 8      | 0       | 
+|aes_wrapper | aes_engine_i/bd1/islem25_reg[10]              | 3      | 8     | NO           | NO                 | YES               | 8      | 0       | 
+|aes_wrapper | aes_engine_i/bd1/islem216_reg[10]             | 3      | 8     | NO           | NO                 | YES               | 8      | 0       | 
+|aes_wrapper | aes_engine_i/bd1/islem211_reg[10]             | 3      | 8     | NO           | NO                 | YES               | 8      | 0       | 
+|aes_wrapper | aes_engine_i/bd1/islem24_reg[10]              | 3      | 8     | NO           | NO                 | YES               | 8      | 0       | 
+|aes_wrapper | aes_engine_i/bd1/islem212_reg[10]             | 3      | 8     | NO           | NO                 | YES               | 8      | 0       | 
+|aes_wrapper | aes_engine_i/bd1/islem215_reg[10]             | 3      | 8     | NO           | NO                 | YES               | 8      | 0       | 
+|aes_wrapper | aes_engine_i/bd1/islem214_reg[10]             | 3      | 8     | NO           | NO                 | YES               | 8      | 0       | 
+|aes_wrapper | aes_engine_i/bd2/islem22_reg[10]              | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd2/islem22_reg[9]               | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd2/islem23_reg[10]              | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd2/islem23_reg[9]               | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd2/islem213_reg[10]             | 5      | 5     | NO           | NO                 | YES               | 5      | 0       | 
+|aes_wrapper | aes_engine_i/bd2/islem213_reg[9]              | 4      | 3     | NO           | NO                 | YES               | 3      | 0       | 
+|aes_wrapper | aes_engine_i/bd2/islem21_reg[10]              | 4      | 5     | NO           | NO                 | YES               | 5      | 0       | 
+|aes_wrapper | aes_engine_i/bd2/islem21_reg[9]               | 5      | 3     | NO           | NO                 | YES               | 3      | 0       | 
+|aes_wrapper | aes_engine_i/bd2/islem28_reg[10]              | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd2/islem28_reg[9]               | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd2/islem27_reg[10]              | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd2/islem27_reg[9]               | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd2/islem29_reg[10]              | 5      | 5     | NO           | NO                 | YES               | 5      | 0       | 
+|aes_wrapper | aes_engine_i/bd2/islem29_reg[9]               | 4      | 3     | NO           | NO                 | YES               | 3      | 0       | 
+|aes_wrapper | aes_engine_i/bd2/islem26_reg[10]              | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd2/islem26_reg[9]               | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd2/islem210_reg[10]             | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd2/islem210_reg[9]              | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd2/islem25_reg[10]              | 5      | 5     | NO           | NO                 | YES               | 5      | 0       | 
+|aes_wrapper | aes_engine_i/bd2/islem25_reg[9]               | 4      | 3     | NO           | NO                 | YES               | 3      | 0       | 
+|aes_wrapper | aes_engine_i/bd2/islem216_reg[10]             | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd2/islem216_reg[9]              | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd2/islem211_reg[10]             | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd2/islem211_reg[9]              | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd2/islem24_reg[10]              | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd2/islem24_reg[9]               | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd2/islem212_reg[10]             | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd2/islem212_reg[9]              | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd2/islem215_reg[10]             | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd2/islem215_reg[9]              | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd2/islem214_reg[10]             | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd2/islem214_reg[9]              | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd3/islem28_reg[10]              | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd3/islem28_reg[9]               | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd3/islem27_reg[10]              | 5      | 7     | NO           | NO                 | YES               | 7      | 0       | 
+|aes_wrapper | aes_engine_i/bd3/islem27_reg[5]               | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|aes_wrapper | aes_engine_i/bd3/islem29_reg[10]              | 5      | 5     | NO           | NO                 | YES               | 5      | 0       | 
+|aes_wrapper | aes_engine_i/bd3/islem29_reg[9]               | 4      | 3     | NO           | NO                 | YES               | 3      | 0       | 
+|aes_wrapper | aes_engine_i/bd3/islem26_reg[10]              | 5      | 7     | NO           | NO                 | YES               | 7      | 0       | 
+|aes_wrapper | aes_engine_i/bd3/islem26_reg[5]               | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|aes_wrapper | aes_engine_i/bd3/islem210_reg[10]             | 5      | 3     | NO           | NO                 | YES               | 3      | 0       | 
+|aes_wrapper | aes_engine_i/bd3/islem210_reg[9]              | 4      | 5     | NO           | NO                 | YES               | 5      | 0       | 
+|aes_wrapper | aes_engine_i/bd3/islem25_reg[10]              | 5      | 6     | NO           | NO                 | YES               | 6      | 0       | 
+|aes_wrapper | aes_engine_i/bd3/islem25_reg[5]               | 4      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|aes_wrapper | aes_engine_i/bd3/islem216_reg[10]             | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd3/islem216_reg[9]              | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd3/islem211_reg[10]             | 5      | 3     | NO           | NO                 | YES               | 3      | 0       | 
+|aes_wrapper | aes_engine_i/bd3/islem211_reg[9]              | 4      | 5     | NO           | NO                 | YES               | 5      | 0       | 
+|aes_wrapper | aes_engine_i/bd3/islem24_reg[10]              | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd3/islem24_reg[8]               | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd3/islem212_reg[10]             | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd3/islem212_reg[8]              | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd3/islem215_reg[10]             | 5      | 7     | NO           | NO                 | YES               | 7      | 0       | 
+|aes_wrapper | aes_engine_i/bd3/islem215_reg[5]              | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|aes_wrapper | aes_engine_i/bd3/islem214_reg[10]             | 5      | 7     | NO           | NO                 | YES               | 7      | 0       | 
+|aes_wrapper | aes_engine_i/bd3/islem214_reg[5]              | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|aes_wrapper | aes_engine_i/bd3/islem22_reg[10]              | 5      | 3     | NO           | NO                 | YES               | 3      | 0       | 
+|aes_wrapper | aes_engine_i/bd3/islem22_reg[9]               | 4      | 5     | NO           | NO                 | YES               | 5      | 0       | 
+|aes_wrapper | aes_engine_i/bd3/islem23_reg[10]              | 5      | 3     | NO           | NO                 | YES               | 3      | 0       | 
+|aes_wrapper | aes_engine_i/bd3/islem23_reg[9]               | 4      | 5     | NO           | NO                 | YES               | 5      | 0       | 
+|aes_wrapper | aes_engine_i/bd3/islem213_reg[10]             | 5      | 6     | NO           | NO                 | YES               | 6      | 0       | 
+|aes_wrapper | aes_engine_i/bd3/islem213_reg[5]              | 4      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|aes_wrapper | aes_engine_i/bd3/islem21_reg[10]              | 5      | 5     | NO           | NO                 | YES               | 5      | 0       | 
+|aes_wrapper | aes_engine_i/bd3/islem21_reg[9]               | 4      | 3     | NO           | NO                 | YES               | 3      | 0       | 
+|aes_wrapper | aes_engine_i/bd4/islem28_reg[10]              | 5      | 6     | NO           | NO                 | YES               | 6      | 0       | 
+|aes_wrapper | aes_engine_i/bd4/islem28_reg[6]               | 4      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|aes_wrapper | aes_engine_i/bd4/islem27_reg[10]              | 4      | 6     | NO           | NO                 | YES               | 6      | 0       | 
+|aes_wrapper | aes_engine_i/bd4/islem27_reg[9]               | 5      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|aes_wrapper | aes_engine_i/bd4/islem29_reg[10]              | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd4/islem29_reg[6]               | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd4/islem26_reg[10]              | 4      | 3     | NO           | NO                 | YES               | 3      | 0       | 
+|aes_wrapper | aes_engine_i/bd4/islem26_reg[9]               | 5      | 5     | NO           | NO                 | YES               | 5      | 0       | 
+|aes_wrapper | aes_engine_i/bd4/islem210_reg[10]             | 4      | 6     | NO           | NO                 | YES               | 6      | 0       | 
+|aes_wrapper | aes_engine_i/bd4/islem210_reg[6]              | 5      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|aes_wrapper | aes_engine_i/bd4/islem25_reg[10]              | 4      | 3     | NO           | NO                 | YES               | 3      | 0       | 
+|aes_wrapper | aes_engine_i/bd4/islem25_reg[9]               | 5      | 5     | NO           | NO                 | YES               | 5      | 0       | 
+|aes_wrapper | aes_engine_i/bd4/islem216_reg[10]             | 5      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|aes_wrapper | aes_engine_i/bd4/islem216_reg[9]              | 4      | 6     | NO           | NO                 | YES               | 6      | 0       | 
+|aes_wrapper | aes_engine_i/bd4/islem211_reg[10]             | 4      | 5     | NO           | NO                 | YES               | 5      | 0       | 
+|aes_wrapper | aes_engine_i/bd4/islem211_reg[5]              | 5      | 3     | NO           | NO                 | YES               | 3      | 0       | 
+|aes_wrapper | aes_engine_i/bd4/islem24_reg[10]              | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd4/islem24_reg[9]               | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd4/islem212_reg[10]             | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd4/islem212_reg[8]              | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd4/islem215_reg[10]             | 4      | 6     | NO           | NO                 | YES               | 6      | 0       | 
+|aes_wrapper | aes_engine_i/bd4/islem215_reg[4]              | 5      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|aes_wrapper | aes_engine_i/bd4/islem214_reg[10]             | 4      | 5     | NO           | NO                 | YES               | 5      | 0       | 
+|aes_wrapper | aes_engine_i/bd4/islem214_reg[6]              | 5      | 3     | NO           | NO                 | YES               | 3      | 0       | 
+|aes_wrapper | aes_engine_i/bd4/islem22_reg[10]              | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd4/islem22_reg[9]               | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd4/islem23_reg[10]              | 4      | 5     | NO           | NO                 | YES               | 5      | 0       | 
+|aes_wrapper | aes_engine_i/bd4/islem23_reg[9]               | 5      | 3     | NO           | NO                 | YES               | 3      | 0       | 
+|aes_wrapper | aes_engine_i/bd4/islem213_reg[10]             | 4      | 6     | NO           | NO                 | YES               | 6      | 0       | 
+|aes_wrapper | aes_engine_i/bd4/islem213_reg[6]              | 5      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|aes_wrapper | aes_engine_i/bd4/islem21_reg[10]              | 4      | 3     | NO           | NO                 | YES               | 3      | 0       | 
+|aes_wrapper | aes_engine_i/bd4/islem21_reg[9]               | 5      | 5     | NO           | NO                 | YES               | 5      | 0       | 
+|aes_wrapper | aes_engine_i/bd5/islem28_reg[10]              | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd5/islem28_reg[7]               | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd5/islem27_reg[10]              | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd5/islem27_reg[9]               | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd5/islem29_reg[10]              | 5      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|aes_wrapper | aes_engine_i/bd5/islem29_reg[9]               | 4      | 6     | NO           | NO                 | YES               | 6      | 0       | 
+|aes_wrapper | aes_engine_i/bd5/islem26_reg[10]              | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd5/islem26_reg[9]               | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd5/islem210_reg[10]             | 5      | 6     | NO           | NO                 | YES               | 6      | 0       | 
+|aes_wrapper | aes_engine_i/bd5/islem210_reg[9]              | 4      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|aes_wrapper | aes_engine_i/bd5/islem25_reg[10]              | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd5/islem25_reg[9]               | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd5/islem216_reg[10]             | 5      | 6     | NO           | NO                 | YES               | 6      | 0       | 
+|aes_wrapper | aes_engine_i/bd5/islem216_reg[9]              | 4      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|aes_wrapper | aes_engine_i/bd5/islem211_reg[10]             | 5      | 5     | NO           | NO                 | YES               | 5      | 0       | 
+|aes_wrapper | aes_engine_i/bd5/islem211_reg[9]              | 4      | 3     | NO           | NO                 | YES               | 3      | 0       | 
+|aes_wrapper | aes_engine_i/bd5/islem24_reg[10]              | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd5/islem24_reg[7]               | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd5/islem212_reg[10]             | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd5/islem212_reg[8]              | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd5/islem215_reg[10]             | 4      | 3     | NO           | NO                 | YES               | 3      | 0       | 
+|aes_wrapper | aes_engine_i/bd5/islem215_reg[9]              | 5      | 5     | NO           | NO                 | YES               | 5      | 0       | 
+|aes_wrapper | aes_engine_i/bd5/islem214_reg[10]             | 4      | 3     | NO           | NO                 | YES               | 3      | 0       | 
+|aes_wrapper | aes_engine_i/bd5/islem214_reg[9]              | 5      | 5     | NO           | NO                 | YES               | 5      | 0       | 
+|aes_wrapper | aes_engine_i/bd5/islem22_reg[10]              | 5      | 5     | NO           | NO                 | YES               | 5      | 0       | 
+|aes_wrapper | aes_engine_i/bd5/islem22_reg[8]               | 4      | 3     | NO           | NO                 | YES               | 3      | 0       | 
+|aes_wrapper | aes_engine_i/bd5/islem23_reg[10]              | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd5/islem23_reg[8]               | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd5/islem213_reg[10]             | 4      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|aes_wrapper | aes_engine_i/bd5/islem213_reg[9]              | 5      | 6     | NO           | NO                 | YES               | 6      | 0       | 
+|aes_wrapper | aes_engine_i/bd5/islem21_reg[10]              | 5      | 5     | NO           | NO                 | YES               | 5      | 0       | 
+|aes_wrapper | aes_engine_i/bd5/islem21_reg[7]               | 4      | 3     | NO           | NO                 | YES               | 3      | 0       | 
+|aes_wrapper | aes_engine_i/bd6/islem28_reg[10]              | 5      | 8     | NO           | NO                 | YES               | 8      | 0       | 
+|aes_wrapper | aes_engine_i/bd6/islem27_reg[10]              | 4      | 5     | NO           | NO                 | YES               | 5      | 0       | 
+|aes_wrapper | aes_engine_i/bd6/islem27_reg[9]               | 5      | 3     | NO           | NO                 | YES               | 3      | 0       | 
+|aes_wrapper | aes_engine_i/bd6/islem29_reg[10]              | 5      | 6     | NO           | NO                 | YES               | 6      | 0       | 
+|aes_wrapper | aes_engine_i/bd6/islem29_reg[7]               | 4      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|aes_wrapper | aes_engine_i/bd6/islem26_reg[10]              | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd6/islem26_reg[9]               | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd6/islem210_reg[10]             | 5      | 6     | NO           | NO                 | YES               | 6      | 0       | 
+|aes_wrapper | aes_engine_i/bd6/islem210_reg[7]              | 4      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|aes_wrapper | aes_engine_i/bd6/islem25_reg[10]              | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd6/islem25_reg[9]               | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd6/islem216_reg[10]             | 5      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|aes_wrapper | aes_engine_i/bd6/islem216_reg[9]              | 4      | 6     | NO           | NO                 | YES               | 6      | 0       | 
+|aes_wrapper | aes_engine_i/bd6/islem211_reg[10]             | 4      | 6     | NO           | NO                 | YES               | 6      | 0       | 
+|aes_wrapper | aes_engine_i/bd6/islem211_reg[7]              | 5      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|aes_wrapper | aes_engine_i/bd6/islem24_reg[10]              | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd6/islem24_reg[7]               | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd6/islem212_reg[10]             | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd6/islem212_reg[8]              | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd6/islem215_reg[10]             | 5      | 3     | NO           | NO                 | YES               | 3      | 0       | 
+|aes_wrapper | aes_engine_i/bd6/islem215_reg[9]              | 4      | 5     | NO           | NO                 | YES               | 5      | 0       | 
+|aes_wrapper | aes_engine_i/bd6/islem214_reg[10]             | 4      | 3     | NO           | NO                 | YES               | 3      | 0       | 
+|aes_wrapper | aes_engine_i/bd6/islem214_reg[9]              | 5      | 5     | NO           | NO                 | YES               | 5      | 0       | 
+|aes_wrapper | aes_engine_i/bd6/islem22_reg[10]              | 4      | 6     | NO           | NO                 | YES               | 6      | 0       | 
+|aes_wrapper | aes_engine_i/bd6/islem22_reg[7]               | 5      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|aes_wrapper | aes_engine_i/bd6/islem23_reg[10]              | 5      | 3     | NO           | NO                 | YES               | 3      | 0       | 
+|aes_wrapper | aes_engine_i/bd6/islem23_reg[7]               | 4      | 5     | NO           | NO                 | YES               | 5      | 0       | 
+|aes_wrapper | aes_engine_i/bd6/islem213_reg[10]             | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd6/islem213_reg[9]              | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd6/islem21_reg[10]              | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd6/islem21_reg[7]               | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd7/islem28_reg[10]              | 5      | 3     | NO           | NO                 | YES               | 3      | 0       | 
+|aes_wrapper | aes_engine_i/bd7/islem28_reg[8]               | 4      | 5     | NO           | NO                 | YES               | 5      | 0       | 
+|aes_wrapper | aes_engine_i/bd7/islem27_reg[10]              | 5      | 7     | NO           | NO                 | YES               | 7      | 0       | 
+|aes_wrapper | aes_engine_i/bd7/islem27_reg[5]               | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|aes_wrapper | aes_engine_i/bd7/islem29_reg[10]              | 4      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|aes_wrapper | aes_engine_i/bd7/islem29_reg[9]               | 5      | 6     | NO           | NO                 | YES               | 6      | 0       | 
+|aes_wrapper | aes_engine_i/bd7/islem26_reg[10]              | 5      | 6     | NO           | NO                 | YES               | 6      | 0       | 
+|aes_wrapper | aes_engine_i/bd7/islem26_reg[8]               | 4      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|aes_wrapper | aes_engine_i/bd7/islem210_reg[10]             | 5      | 6     | NO           | NO                 | YES               | 6      | 0       | 
+|aes_wrapper | aes_engine_i/bd7/islem210_reg[8]              | 4      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|aes_wrapper | aes_engine_i/bd7/islem25_reg[10]              | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd7/islem25_reg[9]               | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd7/islem216_reg[10]             | 5      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|aes_wrapper | aes_engine_i/bd7/islem216_reg[9]              | 4      | 7     | NO           | NO                 | YES               | 7      | 0       | 
+|aes_wrapper | aes_engine_i/bd7/islem211_reg[10]             | 4      | 5     | NO           | NO                 | YES               | 5      | 0       | 
+|aes_wrapper | aes_engine_i/bd7/islem211_reg[7]              | 5      | 3     | NO           | NO                 | YES               | 3      | 0       | 
+|aes_wrapper | aes_engine_i/bd7/islem24_reg[10]              | 5      | 3     | NO           | NO                 | YES               | 3      | 0       | 
+|aes_wrapper | aes_engine_i/bd7/islem24_reg[8]               | 4      | 5     | NO           | NO                 | YES               | 5      | 0       | 
+|aes_wrapper | aes_engine_i/bd7/islem212_reg[10]             | 5      | 7     | NO           | NO                 | YES               | 7      | 0       | 
+|aes_wrapper | aes_engine_i/bd7/islem212_reg[7]              | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|aes_wrapper | aes_engine_i/bd7/islem215_reg[10]             | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd7/islem215_reg[9]              | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd7/islem214_reg[10]             | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|aes_wrapper | aes_engine_i/bd7/islem214_reg[9]              | 5      | 7     | NO           | NO                 | YES               | 7      | 0       | 
+|aes_wrapper | aes_engine_i/bd7/islem22_reg[10]              | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd7/islem22_reg[9]               | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd7/islem23_reg[10]              | 4      | 6     | NO           | NO                 | YES               | 6      | 0       | 
+|aes_wrapper | aes_engine_i/bd7/islem23_reg[9]               | 5      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|aes_wrapper | aes_engine_i/bd7/islem213_reg[10]             | 5      | 6     | NO           | NO                 | YES               | 6      | 0       | 
+|aes_wrapper | aes_engine_i/bd7/islem213_reg[7]              | 4      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|aes_wrapper | aes_engine_i/bd7/islem21_reg[10]              | 4      | 6     | NO           | NO                 | YES               | 6      | 0       | 
+|aes_wrapper | aes_engine_i/bd7/islem21_reg[6]               | 5      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|aes_wrapper | aes_engine_i/bd8/islem28_reg[10]              | 4      | 6     | NO           | NO                 | YES               | 6      | 0       | 
+|aes_wrapper | aes_engine_i/bd8/islem28_reg[5]               | 5      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|aes_wrapper | aes_engine_i/bd8/islem27_reg[10]              | 5      | 5     | NO           | NO                 | YES               | 5      | 0       | 
+|aes_wrapper | aes_engine_i/bd8/islem27_reg[9]               | 4      | 3     | NO           | NO                 | YES               | 3      | 0       | 
+|aes_wrapper | aes_engine_i/bd8/islem29_reg[10]              | 5      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|aes_wrapper | aes_engine_i/bd8/islem29_reg[9]               | 4      | 6     | NO           | NO                 | YES               | 6      | 0       | 
+|aes_wrapper | aes_engine_i/bd8/islem26_reg[10]              | 4      | 3     | NO           | NO                 | YES               | 3      | 0       | 
+|aes_wrapper | aes_engine_i/bd8/islem26_reg[8]               | 5      | 5     | NO           | NO                 | YES               | 5      | 0       | 
+|aes_wrapper | aes_engine_i/bd8/islem210_reg[10]             | 4      | 5     | NO           | NO                 | YES               | 5      | 0       | 
+|aes_wrapper | aes_engine_i/bd8/islem210_reg[7]              | 5      | 3     | NO           | NO                 | YES               | 3      | 0       | 
+|aes_wrapper | aes_engine_i/bd8/islem25_reg[10]              | 4      | 6     | NO           | NO                 | YES               | 6      | 0       | 
+|aes_wrapper | aes_engine_i/bd8/islem25_reg[7]               | 5      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|aes_wrapper | aes_engine_i/bd8/islem216_reg[10]             | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd8/islem216_reg[9]              | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd8/islem211_reg[10]             | 4      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|aes_wrapper | aes_engine_i/bd8/islem211_reg[9]              | 5      | 6     | NO           | NO                 | YES               | 6      | 0       | 
+|aes_wrapper | aes_engine_i/bd8/islem24_reg[10]              | 4      | 5     | NO           | NO                 | YES               | 5      | 0       | 
+|aes_wrapper | aes_engine_i/bd8/islem24_reg[8]               | 5      | 3     | NO           | NO                 | YES               | 3      | 0       | 
+|aes_wrapper | aes_engine_i/bd8/islem212_reg[10]             | 4      | 5     | NO           | NO                 | YES               | 5      | 0       | 
+|aes_wrapper | aes_engine_i/bd8/islem212_reg[7]              | 5      | 3     | NO           | NO                 | YES               | 3      | 0       | 
+|aes_wrapper | aes_engine_i/bd8/islem215_reg[10]             | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd8/islem215_reg[8]              | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd8/islem214_reg[10]             | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd8/islem214_reg[9]              | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd8/islem22_reg[10]              | 4      | 5     | NO           | NO                 | YES               | 5      | 0       | 
+|aes_wrapper | aes_engine_i/bd8/islem22_reg[6]               | 5      | 3     | NO           | NO                 | YES               | 3      | 0       | 
+|aes_wrapper | aes_engine_i/bd8/islem23_reg[10]              | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd8/islem23_reg[9]               | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd8/islem213_reg[10]             | 5      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|aes_wrapper | aes_engine_i/bd8/islem213_reg[9]              | 4      | 6     | NO           | NO                 | YES               | 6      | 0       | 
+|aes_wrapper | aes_engine_i/bd8/islem21_reg[10]              | 5      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|aes_wrapper | aes_engine_i/bd8/islem21_reg[9]               | 4      | 6     | NO           | NO                 | YES               | 6      | 0       | 
+|aes_wrapper | aes_engine_i/bd9/islem28_reg[10]              | 5      | 5     | NO           | NO                 | YES               | 5      | 0       | 
+|aes_wrapper | aes_engine_i/bd9/islem28_reg[7]               | 4      | 3     | NO           | NO                 | YES               | 3      | 0       | 
+|aes_wrapper | aes_engine_i/bd9/islem27_reg[10]              | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd9/islem27_reg[8]               | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd9/islem29_reg[10]              | 4      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|aes_wrapper | aes_engine_i/bd9/islem29_reg[9]               | 5      | 6     | NO           | NO                 | YES               | 6      | 0       | 
+|aes_wrapper | aes_engine_i/bd9/islem26_reg[10]              | 5      | 7     | NO           | NO                 | YES               | 7      | 0       | 
+|aes_wrapper | aes_engine_i/bd9/islem26_reg[3]               | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|aes_wrapper | aes_engine_i/bd9/islem210_reg[10]             | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd9/islem210_reg[7]              | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd9/islem25_reg[10]              | 4      | 6     | NO           | NO                 | YES               | 6      | 0       | 
+|aes_wrapper | aes_engine_i/bd9/islem25_reg[7]               | 5      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|aes_wrapper | aes_engine_i/bd9/islem216_reg[10]             | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd9/islem216_reg[9]              | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd9/islem211_reg[10]             | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd9/islem211_reg[9]              | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd9/islem24_reg[10]              | 4      | 5     | NO           | NO                 | YES               | 5      | 0       | 
+|aes_wrapper | aes_engine_i/bd9/islem24_reg[7]               | 5      | 3     | NO           | NO                 | YES               | 3      | 0       | 
+|aes_wrapper | aes_engine_i/bd9/islem212_reg[10]             | 4      | 6     | NO           | NO                 | YES               | 6      | 0       | 
+|aes_wrapper | aes_engine_i/bd9/islem212_reg[6]              | 5      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|aes_wrapper | aes_engine_i/bd9/islem215_reg[10]             | 4      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|aes_wrapper | aes_engine_i/bd9/islem215_reg[9]              | 5      | 6     | NO           | NO                 | YES               | 6      | 0       | 
+|aes_wrapper | aes_engine_i/bd9/islem214_reg[10]             | 4      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|aes_wrapper | aes_engine_i/bd9/islem214_reg[9]              | 5      | 6     | NO           | NO                 | YES               | 6      | 0       | 
+|aes_wrapper | aes_engine_i/bd9/islem22_reg[10]              | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd9/islem22_reg[8]               | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd9/islem23_reg[10]              | 5      | 3     | NO           | NO                 | YES               | 3      | 0       | 
+|aes_wrapper | aes_engine_i/bd9/islem23_reg[9]               | 4      | 5     | NO           | NO                 | YES               | 5      | 0       | 
+|aes_wrapper | aes_engine_i/bd9/islem213_reg[10]             | 4      | 6     | NO           | NO                 | YES               | 6      | 0       | 
+|aes_wrapper | aes_engine_i/bd9/islem213_reg[5]              | 5      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|aes_wrapper | aes_engine_i/bd9/islem21_reg[10]              | 5      | 8     | NO           | NO                 | YES               | 8      | 0       | 
+|aes_wrapper | aes_engine_i/bd10/islem28_reg[10]             | 4      | 6     | NO           | NO                 | YES               | 6      | 0       | 
+|aes_wrapper | aes_engine_i/bd10/islem28_reg[8]              | 5      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|aes_wrapper | aes_engine_i/bd10/islem27_reg[10]             | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd10/islem27_reg[9]              | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd10/islem29_reg[10]             | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd10/islem29_reg[9]              | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd10/islem26_reg[10]             | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd10/islem26_reg[8]              | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd10/islem210_reg[10]            | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd10/islem210_reg[8]             | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd10/islem25_reg[10]             | 4      | 6     | NO           | NO                 | YES               | 6      | 0       | 
+|aes_wrapper | aes_engine_i/bd10/islem25_reg[5]              | 5      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|aes_wrapper | aes_engine_i/bd10/islem216_reg[10]            | 5      | 6     | NO           | NO                 | YES               | 6      | 0       | 
+|aes_wrapper | aes_engine_i/bd10/islem216_reg[9]             | 4      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|aes_wrapper | aes_engine_i/bd10/islem211_reg[10]            | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd10/islem211_reg[8]             | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd10/islem24_reg[10]             | 4      | 5     | NO           | NO                 | YES               | 5      | 0       | 
+|aes_wrapper | aes_engine_i/bd10/islem24_reg[8]              | 5      | 3     | NO           | NO                 | YES               | 3      | 0       | 
+|aes_wrapper | aes_engine_i/bd10/islem212_reg[10]            | 5      | 6     | NO           | NO                 | YES               | 6      | 0       | 
+|aes_wrapper | aes_engine_i/bd10/islem212_reg[8]             | 4      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|aes_wrapper | aes_engine_i/bd10/islem215_reg[10]            | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd10/islem215_reg[9]             | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd10/islem214_reg[10]            | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd10/islem214_reg[9]             | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd10/islem22_reg[10]             | 4      | 3     | NO           | NO                 | YES               | 3      | 0       | 
+|aes_wrapper | aes_engine_i/bd10/islem22_reg[8]              | 5      | 5     | NO           | NO                 | YES               | 5      | 0       | 
+|aes_wrapper | aes_engine_i/bd10/islem23_reg[10]             | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd10/islem23_reg[9]              | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd10/islem213_reg[10]            | 4      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|aes_wrapper | aes_engine_i/bd10/islem213_reg[9]             | 5      | 6     | NO           | NO                 | YES               | 6      | 0       | 
+|aes_wrapper | aes_engine_i/bd10/islem21_reg[10]             | 5      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/bd10/islem21_reg[7]              | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|aes_wrapper | aes_engine_i/tait10/toplanmis_matris_reg[127] | 5      | 68    | NO           | YES                | YES               | 68     | 0       | 
++------------+-----------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |clk_wiz       |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |clk_wiz |     1|
+|2     |LUT1    |   253|
+|3     |LUT2    |  1012|
+|4     |LUT3    |   561|
+|5     |LUT4    |  1153|
+|6     |LUT5    |  9985|
+|7     |LUT6    |  2562|
+|8     |MUXF7   |  1280|
+|9     |SRL16E  |  1348|
+|10    |FDRE    |  8581|
+|11    |IBUF    |     1|
+|12    |OBUF    |     1|
++------+--------+------+
+
+Report Instance Areas: 
++------+---------------+-------------------------+------+
+|      |Instance       |Module                   |Cells |
++------+---------------+-------------------------+------+
+|1     |top            |                         | 26739|
+|2     |  aes_engine_i |aes_engine               | 26462|
+|3     |    bd1        |bayt_degistirme          |  1856|
+|4     |    bd10       |bayt_degistirme_0        |  1868|
+|5     |    bd2        |bayt_degistirme_1        |  1792|
+|6     |    bd3        |bayt_degistirme_2        |  1936|
+|7     |    bd4        |bayt_degistirme_3        |  1936|
+|8     |    bd5        |bayt_degistirme_4        |  1936|
+|9     |    bd6        |bayt_degistirme_5        |  1936|
+|10    |    bd7        |bayt_degistirme_6        |  1936|
+|11    |    bd8        |bayt_degistirme_7        |  1936|
+|12    |    bd9        |bayt_degistirme_8        |  1936|
+|13    |    sak1       |satir_kaydirma           |   288|
+|14    |    sak2       |satir_kaydirma_9         |   288|
+|15    |    sak3       |satir_kaydirma_10        |   288|
+|16    |    sak4       |satir_kaydirma_11        |   288|
+|17    |    sak5       |satir_kaydirma_12        |   288|
+|18    |    sak6       |satir_kaydirma_13        |   288|
+|19    |    sak7       |satir_kaydirma_14        |   288|
+|20    |    sak8       |satir_kaydirma_15        |   288|
+|21    |    sak9       |satir_kaydirma_16        |   288|
+|22    |    sk1        |sutun_karistirma         |   478|
+|23    |    sk10       |satir_kaydirma_17        |    60|
+|24    |    sk2        |sutun_karistirma_18      |   466|
+|25    |    sk3        |sutun_karistirma_19      |   488|
+|26    |    sk4        |sutun_karistirma_20      |   471|
+|27    |    sk5        |sutun_karistirma_21      |   480|
+|28    |    sk6        |sutun_karistirma_22      |   473|
+|29    |    sk7        |sutun_karistirma_23      |   490|
+|30    |    sk8        |sutun_karistirma_24      |   474|
+|31    |    sk9        |sutun_karistirma_25      |   478|
+|32    |    tait10     |tur_anahtari_ile_toplama |   444|
++------+---------------+-------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:50 ; elapsed = 00:02:14 . Memory (MB): peak = 991.938 ; gain = 694.273
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:37 ; elapsed = 00:02:04 . Memory (MB): peak = 991.938 ; gain = 225.969
+Synthesis Optimization Complete : Time (s): cpu = 00:01:50 ; elapsed = 00:02:14 . Memory (MB): peak = 991.938 ; gain = 694.273
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 1280 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 991.938 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+353 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:55 ; elapsed = 00:02:19 . Memory (MB): peak = 991.938 ; gain = 703.609
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 991.938 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/SHC/vivado/aes_engine_wrapper/aes_engine_wrapper.runs/synth_1/aes_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file aes_wrapper_utilization_synth.rpt -pb aes_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Aug  8 18:51:50 2020...
