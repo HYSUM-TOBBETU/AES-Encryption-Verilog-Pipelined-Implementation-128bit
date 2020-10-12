@@ -32,7 +32,7 @@ In mix_columns (sutun_karistirma) module there is no lookup table, just there is
 
 The logic of mix_columns is like that:
 
-- We need all columns of the matrix what we have multiply by MDS (Maximum Distance Seperable) matrix, and we need to know after each multiplying we are doing xor operation instead of addition. The first different is that for matrix multiplying, other matrix operations are same.  
+- We need all columns of the matrix what we have multiply by MDS (Maximum Distance Seperable) matrix, and we need to know after each multiplying we are doing xor operation instead of addition. The first difference is that for matrix multiplying, other matrix operations are same.  
 
 MDS matrix:
 
